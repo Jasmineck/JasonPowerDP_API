@@ -200,7 +200,7 @@ function saveStudent()
     $("#empId").focus();
 }
 
-function changeStudent()
+function updateStudent()
 {
     $('#change').prop('disabled',true);
     jsonChg=validateData();
